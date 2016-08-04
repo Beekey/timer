@@ -1,0 +1,162 @@
+#wrapper {
+  padding: 2px 2px 6px 2px;
+  margin: 20px auto;
+  width: 210px;
+  cursor: default;
+  font-size: 25px;
+  text-align: center;
+  /*---------------------------
+  make text selection impossible
+  --------------------------------*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.length {
+  margin: 2px auto;
+  padding: 2px;
+  width: 150px;
+  text-align: center;
+}
+
+.length div {
+  display: inline-block;
+  margin: 0 1px;
+  padding: 1px 1px;
+  vertical-align: middle;
+}
+
+#clock,
+#session_plus,
+#session_minus,
+#break_plus,
+#break_minus {
+  cursor: pointer;
+}
+
+#session_duration,
+#break_duration {
+  font-size: 27px;
+  width: 70px;
+  line-height: 0;
+}
+
+#sound,
+#refresh {
+  cursor: pointer;
+  display: inline-block;
+  margin: 1px 2px 5px 2px;
+  padding: 2px;
+  width: 70px;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  padding: 2px;
+  background-color: silver;
+  margin-bottom: 1px;
+  border-radius: 3px;
+}
+
+#clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+svg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#timeLeft {
+  position: absolute;
+  margin: auto;
+  font-size: 45px;
+  text-align: center;
+  top: 50px;
+  width: 150px;
+  left: 25px;
+}
+
+#progressBackground {
+  stroke: #EFEFEF;
+  fill: transparent;
+  stroke-width: 27px;
+  stroke-dasharray: 629, 0;
+}
+
+#progress {
+  stroke: silver;
+  fill: transparent;
+  stroke-width: 27px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -sand-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -sand-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  stroke-dasharray: 629, 0;
+}
+
+#soundBox {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 17px;
+}
+
+#noSound {
+  position: absolute;
+  font-size: 15px;
+}
+
+#noSoundIcon {
+  display: inline-block;
+  margin-left: -12px;
+}
+
+#timerStartStop {
+  color: silver;
+  position: absolute;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+  top: 42px;
+  width: 150px;
+  left: 25px;
+  line-height: 1;
+}
+
+#pomodoroLogo {
+  position: absolute;
+  margin: auto;
+  top: 103px;
+  left: 44px;
+}
+
+#footer {
+  color: silver;
+  font-size: 11px;
+  margin: 10px auto 0 auto;
+  text
+}
+
+#footer a:visited,
+#footer a {
+  color: silver;
+}
